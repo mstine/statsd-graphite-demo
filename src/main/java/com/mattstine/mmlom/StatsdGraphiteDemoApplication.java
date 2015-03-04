@@ -50,6 +50,7 @@ public class StatsdGraphiteDemoApplication implements CommandLineRunner {
 
     @RequestMapping("/hello")
     public String hello() {
+        log.debug("Hello Logstash!");
         return "Hello World!";
     }
 
